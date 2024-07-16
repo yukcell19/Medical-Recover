@@ -1,0 +1,111 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  height: 594px;
+
+  .subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    height: 592px;
+
+    .subscribe-texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 692px;
+      height: 134px;
+
+      h6 {
+        margin: 0;
+        width: 82px;
+        height: 24px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        color: #ff685b;
+      }
+
+      h3 {
+        margin: 10px 0px 10px 0px;
+        width: 175px;
+        height: 50px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        color: #252b42;
+      }
+
+      p {
+        margin: 0;
+        width: 469px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        color: #737373;
+      }
+    }
+
+    .subscribe-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 80px;
+      width: 688px;
+      height: 58px;
+
+      .input-area {
+        margin: 0;
+        width: 571px;
+        height: 58px;
+        background-color: #F9F9F9;
+        border: 1px solid #E6E6E6;
+        border-right: 0px;
+        border-radius: 5px 0px 0px 5px;
+
+        .text{
+            padding: 15px 0px 15px 20px;
+            width: 80px;
+            height: 28px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+            color: #737373;
+        }   
+      }
+
+      .subscribe-button {
+        width: 117px;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        border: none;
+        padding: 15px 25px 15px 25px;
+        gap: 15px;
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #E6E6E6;
+        background-color: #ff685b;
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
