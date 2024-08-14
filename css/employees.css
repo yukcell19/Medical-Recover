@@ -1,120 +1,120 @@
-.employees{
+.employees {
+  display: flex;
+  justify-content: center;
+  height: 849px;
+
+  .employees-container {
     display: flex;
     justify-content: center;
-    height: 849px;
+    flex-direction: column;
+    width: 1050px;
+    height: 845px;
 
-    .employees-container{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 1050px;
-        height: 845px;
+    .employees-texts {
+      width: 1044px;
+      height: 134px;
 
-        .employees-texts{
-            width: 1044px;
-            height: 134px;
+      .employees-texts-contents {
+        width: 691px;
+        height: 134px;
 
-            .employees-texts-contents{
-                width: 691px;
-                height: 134px;
-
-                h6{
-                    margin: 0;
-                    width: 40px;
-                    height: 24px;
-                    font-size: 14px;
-                    font-weight: 700;
-                    line-height: 24px;
-                    letter-spacing: 0.20000000298023224px;
-                    text-align: left;      
-                    color: #FF685B;
-                }
-
-                h3{
-                    margin: 10px 0 10px 0;
-                    width: 210px;
-                    height: 50px;
-                    font-size: 40px;
-                    font-weight: 700;
-                    line-height: 50px;
-                    letter-spacing: 0.20000000298023224px;
-                    text-align: left;
-                    color: #252B42;     
-                }
-
-                p{
-                    margin: 0;
-                    width: 469px;
-                    height: 40px;
-                    font-size: 14px;
-                    font-weight: 600;
-                    line-height: 20px;
-                    letter-spacing: 0.20000000298023224px;
-                    text-align: left;
-                    color: #737373;
-                }
-            }
+        h6 {
+          margin: 0;
+          width: 40px;
+          height: 24px;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: #ff685b;
         }
 
-        .employees-cards{
-            display: flex;
-            justify-content: space-between;
-            margin-top: 112px;
-            width: 1049px;
-            height: 375px;
-
-            .employee-cards-item{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                width: 240px;
-                height: 375px;
-                border-radius: 20px;      
-                box-shadow: 0px 13px 19px 0px #00000012;  
-
-                img{
-                    border-radius: 20px 20px 0px 0px;
-                }
-
-                .employee-info{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    width: 232px;
-                    height: 144px;
-
-                    h5{
-                        margin: 0;
-                        width: 135px;
-                        height: 24px;
-                        font-size: 16px;
-                        font-weight: 700;
-                        line-height: 24px;
-                        letter-spacing: 0.10000000149011612px;
-                        text-align: center;
-                        color: #252B42; 
-                    }
-
-                    small{
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                        width: 66px;
-                        height: 16px;
-                        font-size: 12px;
-                        font-weight: 600;
-                        line-height: 16px;
-                        letter-spacing: 0.20000000298023224px;
-                        text-align: center;
-                        color: #737373;
-                    }
-
-                    img{
-                        border-radius: 0px;
-                    }
-                }
-            }
+        h3 {
+          margin: 10px 0 10px 0;
+          width: 210px;
+          height: 50px;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: #252b42;
         }
+
+        p {
+          margin: 0;
+          width: 469px;
+          height: 40px;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 20px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: #737373;
+        }
+      }
     }
+
+    .employees-cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 112px;
+      width: 1049px;
+      height: 375px;
+
+      .employee-cards-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 240px;
+        height: 375px;
+        border-radius: 20px;
+        box-shadow: 0px 13px 19px 0px #00000012;
+
+        img {
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        .employee-info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 232px;
+          height: 144px;
+
+          h5 {
+            margin: 0;
+            width: 135px;
+            height: 24px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: center;
+            color: #252b42;
+          }
+
+          small {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 66px;
+            height: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+            color: #737373;
+          }
+
+          img {
+            border-radius: 0px;
+          }
+        }
+      }
+    }
+  }
 }
